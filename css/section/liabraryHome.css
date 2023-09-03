@@ -1,4 +1,4 @@
-.home{
+.home__lib{
     width: 100vw;
     height: calc(100vh - 112px);
     background: linear-gradient(180deg, #90AEA7 0%, #000 60.7%);
