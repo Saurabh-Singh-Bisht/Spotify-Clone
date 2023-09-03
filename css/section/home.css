@@ -1,0 +1,175 @@
+.home{
+    flex: 1;
+    height: calc(100vh - 0px);
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+
+}
+.home__first-bar{
+    display: flex;
+    justify-content: space-between;
+
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+.first-bar__navigation{
+    display: flex;
+}
+.first-bar__navigation{
+    cursor: pointer ;
+}
+.navigation--previous{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    
+    background-color: #131313;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation--next{
+    width: 40px;
+    height: 40px;
+    
+    background-color: #131313;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-bar__account{
+    position: relative;
+
+    width: 147px;
+    border-radius: 33px;
+
+    background-color: #0A0A0A;
+    display: flex;
+    justify-content: space-around;
+}
+.first-bar__account > img[src="./assets/Ellipse 3.png"]{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.first-bar__account p{
+    position: absolute;
+
+
+    font-weight: 600;
+}
+.first-bar__account > img[src="./assets/fi-ss-caret-down.png"]{
+    position: absolute;
+    right: 15px;
+}
+.first-bar__account:hover{
+    cursor: pointer;
+}
+.home__content{
+    margin-top: 40px;
+    width: 97%;
+    margin-inline: 20px;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+.home__content > .home__content--scroll{
+    white-space: nowrap;
+
+}
+.home__content::-webkit-scrollbar{
+    display: none;
+}
+.home__content > h1{
+    font-weight: 600;
+}
+.home__content__grid{
+    margin-top: 20px;
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.home__content__grid__col{
+    width: 362px;
+    height: 100px;
+
+    border-radius: 4px;
+    background-color: #303030;
+
+    display: flex;
+    align-items: center;
+}
+.home__content__grid__col{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home__content__grid__col:hover{
+    cursor: pointer;
+}
+.col--image{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 4px 0px 0px 4px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home__content__show{
+    margin-top: 20px;
+}
+.show--heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.show__albums{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    width: 97%;
+}
+.albums__template{
+    width: 251px;
+    height: 305px;
+
+    background-color: #181818;
+
+    display: flex;
+    flex-direction: column;
+}
+.albums__template > img{
+    width: 207px;
+    height: 207px;
+
+    margin-top: 22px;
+    margin-inline: auto;
+}
+.albums__template > h3{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    position: relative;
+    top: 10px;
+    left: 23px;
+}
+.albums__template > p{
+    color: #B3B3B3;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    
+    position: relative;
+    top: 15px;
+    left: 23px;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@import url("./section/main.css");
+@import url("./section/header.css");
+@import url("./section/home.css");
+@import url("./section/player.css");
+@import url("./section/liabraryHome.css");
+
+:root{
+    --color-bg: #000;
+    --color-text: #fff;
+    --player-color: #181818;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    color: var(--color-text);
+
+    font-family: 'Montserrat', sans-serif;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.flex-center-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

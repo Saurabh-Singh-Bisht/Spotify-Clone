@@ -1,0 +1,62 @@
+.player{
+    padding-inline: 15px;
+    position: fixed;
+    width: 100vw;
+    height: 112px;
+    bottom: 0px;
+    background-color: #181818;
+
+    display: flex;
+    align-items: center;
+
+    z-index: 5;
+}
+.player__left-div{
+    flex: 1;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.song-info--song-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.player__left-div__song-artist{
+    font-size: 15px;
+    font-weight: #B3B3B3;
+}
+.player__middle-div{
+    flex: 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle-div__player-control{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middle-div__player-control img{
+    margin-inline: 12px;
+}
+.middle-div__player-bar{
+    display: flex;
+    align-items: center;
+
+}
+.middle-div__player-bar span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.middle-div__player-bar img{
+    margin-inline: 10px;
+}
+.player__right-div{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
